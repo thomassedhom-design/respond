@@ -1,0 +1,477 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#cdd0cb
+}
+
+
+@media(min-width:1003px){
+    .first{
+        width:100%;
+        height:80px; 
+        background:#7c9473;
+        display:flex;
+        position:fixed;
+        z-index:2
+    }
+    
+    .first .headline{
+        margin:0 0 0 30px;
+        align-items: center;
+        font-size:30px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        display:flex;
+        width:22%
+    }
+    
+    .first .headline .firstphoto{height:57px;display:flex;}
+    
+    .first .headline .firstphoto img{width:101px;height:59px;border-radius: 50%;margin:0 0 0 6px;}
+    
+    .first .more{display:flex;width:82%;justify-content: center;}
+    
+    
+    .btn-group{overflow: hidden;width:0px;height:0px;position: absolute;}
+
+    .first .more ul{
+        display:flex;
+        list-style:none;
+        flex-wrap:wrap;
+        height:100%;
+        padding-top:5px;
+        align-items: center
+    }
+    
+    
+    .first .more ul li{
+        margin:5px 27px 5px 27px;
+        font-size:24px;
+        color:white;
+        transition:all 0.2s ease-in-out;
+        width:84px;
+        height:30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first .more ul li a{text-decoration:none;color:white;transition:all 0.2s ease-in-out ;}
+    
+    .first .more ul li :hover{
+    font-size: 29px;
+    color: rgb(131, 89, 89);
+    transition:all 0.2s ease-in-out ;
+    }
+    
+    .first .more ul li a:active{color:yellowgreen}
+    
+    .middle{
+    width:100%;
+    height:450px;
+    padding:142px 0 95px 0;
+    background-color: #cfdac8;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    }
+    
+    .middle .birthday ,.middle .childrens {
+    width:500px;
+    height:450px;
+    background-color: rgb(106, 136, 118);
+    border-radius: 60px;
+    transition:all 0.6s ease-in-out 
+    }
+    
+    .middle .birthday img , .middle .childrens img{width:100%;height:100%;border-radius:60px ;}
+    
+    .middle .birthday .comment , .middle .childrens .comment{
+    position: absolute;
+    text-align:center;
+    width:430px;
+    background-color: rgb(56 50 47 / 61%);
+    border-radius: 80px;
+    margin:2.5px 0 0 30px;
+    padding:5px;
+    font-size:20px;
+    color:rgb(46, 168, 162);
+    z-index:1
+    }
+    
+    .middle .childrens:hover{height:470px;transition:all 0.6s ease-in-out}
+    
+    .middle .birthday:hover{height:470px;transition:all 0.6s ease-in-out}
+    
+    .end{
+    width:100%;
+    height:300px;
+    background-color: #294546;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .end .contact{
+    width:100%;
+    height:100%;
+    }
+    
+    .end .contact h2{padding:20px 0 0 25px;color:rgb(163, 163, 163)}
+    
+    .end .contact p{padding:20px 0 0 25px;font-size:19px;color:rgb(163, 163, 163)}
+    
+    .end .contact span{font-weight:bold}
+    }
+
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+@media(max-width:1003px){
+    .first{
+        width:100%;
+        height:80px; 
+        background:#7c9473;
+        display:flex;
+        position:fixed;
+        z-index:2
+    }
+    
+    .first .headline{
+        margin:0 0 0 30px;
+        align-items: center;
+        font-size:30px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        display:flex;
+        width:24%
+    }
+    
+    .first .headline .firstphoto{height:57px;display:flex;}
+    
+    .first .headline .firstphoto img{
+        width:101px;
+        height:59px;
+        border-radius: 50%;
+        margin:0 66px 0 0px;
+    }
+    
+    .first .more{display:flex;width:82%;justify-content: center;}
+    
+    .btn-group{overflow: hidden;width:0px;height:0px;position: absolute;}
+    
+    .first .more ul{
+        display:flex;
+        list-style:none;
+        flex-wrap:wrap;
+        height:100%;
+        padding-top:5px;
+        align-items: center
+    }
+    
+    
+    .first .more ul li{
+        margin:5px 27px 5px 27px;
+        font-size:24px;
+        color:white;
+        transition:all 0.2s ease-in-out;
+        width:84px;
+        height:30px;
+        display: flex;
+    }
+    
+    .first .more ul li a{text-decoration:none;color:white;transition:all 0.2s ease-in-out ;}
+    
+    .first .more ul li :hover{
+    font-size: 29px;
+    color: rgb(131, 89, 89);
+    transition:all 0.2s ease-in-out ;
+    }
+    
+    .first .more ul li a:active{color:yellowgreen}
+    
+    .middle{
+    width:100%;
+    height:900px;
+    padding:142px 0 95px 0;
+    background-color: #cfdac8;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    }
+    
+    .middle .birthday ,.middle .childrens {
+    width:500px;
+    height:450px;
+    display:flex;
+    background-color: rgb(106, 136, 118);
+    border-radius: 60px;
+    transition:all 0.6s ease-in-out ;
+    margin:0 0 10px 0
+    }
+    
+    .middle .birthday img , .middle .childrens img{width:100%;height:100%;border-radius:60px ;}
+    
+    .middle .birthday .comment , .middle .childrens .comment{
+    position: absolute;
+    text-align:center;
+    width:430px;
+    background-color: rgb(56 50 47 / 61%);
+    border-radius: 80px;
+    margin:2.5px 0 0 30px;
+    padding:5px;
+    font-size:20px;
+    color:rgb(46, 168, 162);
+    z-index:1
+    }
+    
+    .middle .childrens:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    .middle .birthday:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    
+    .end{width:100%;height:300px;background-color: #294546;text-align: center;display: flex;flex-wrap: wrap;}
+    
+    .end .contact{ width:100%;height:100%;}
+    
+    .end .contact h2{padding:20px 0 0 25px;color:rgb(163, 163, 163)}
+    
+    .end .contact p{padding:20px 0 0 25px;font-size:19px;color:rgb(163, 163, 163)}
+    
+    .end .contact span{font-weight:bold}
+    }
+/********************************************************************************************************/
+/********************************************************************************************************/
+@media(max-width:760px){
+    .first{
+        width:100%;
+        height:80px; 
+        background:#7c9473;
+        display:flex;
+        position:fixed;
+        z-index:2
+    }
+    
+    .first .headline{
+        margin:0 0 0 5px;
+        align-items: center;
+        font-size:30px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        display:flex;
+        width:150px
+    }
+    
+    .first .headline .firstphoto{height:57px;display:flex;}
+    
+    .first .headline .firstphoto img{
+        width:101px;
+        height:59px;
+        border-radius: 50%;
+        margin:0 0 0 6px;
+    }
+    
+    .first .more{width:52%;justify-content: flex-end;margin-left:30px;float:right}
+    
+    .btn-group{overflow: hidden;width:0px;height:0px;position: absolute;}
+    
+    .first .more ul{
+        list-style:none;
+        float:left;
+        height:50px;
+        padding-top:5px;
+        margin:0px 0 0 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .first .more ul li{
+        margin:5px 30px 5px 17px;
+        font-size:24px;
+        color:white;
+        transition:all 0.2s ease-in-out;
+        width:84px;
+        height:30px;
+        display: flex;
+    }
+    
+
+    .first .more ul li a{text-decoration:none;color:white;transition:all 0.2s ease-in-out ;}
+    
+    .first .more ul li :hover{
+    font-size: 29px;
+    color: rgb(131, 89, 89);
+    transition:all 0.2s ease-in-out ;
+    }
+    
+    .first .more ul li a:active{color:yellowgreen}
+    
+    .middle{
+    width:100%;
+    height:900px;
+    padding:142px 0 95px 0;
+    background-color: #cfdac8;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    }
+    
+    .middle .birthday ,.middle .childrens {
+    width:500px;
+    height:450px;
+    display:flex;
+    background-color: rgb(106, 136, 118);
+    border-radius: 60px;
+    transition:all 0.6s ease-in-out ;
+    margin:0 0 10px 0
+    }
+    .middle .birthday img , .middle .childrens img{width:100%;height:100%;border-radius:60px ;}
+    
+    .middle .birthday .comment , .middle .childrens .comment{
+    position: absolute;
+    text-align:center;
+    width:125px;
+    background-color: rgb(56 50 47 / 61%);
+    border-radius: 80px;
+    margin:2.5px 0 0 120px ;
+    padding:5px;
+    font-size:20px;
+    color:rgb(46, 168, 162);
+    z-index:1;
+    display:flex
+    }
+    
+    .middle .childrens .comment{width:142px}
+
+    .middle .childrens:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    .middle .birthday:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    
+    .end{width:100%;height:300px;background-color: #294546;text-align: center;display: flex;flex-wrap: wrap}
+    
+    .end .contact{ width:100%;height:100%;}
+    
+    .end .contact h2{padding:20px 0 0 25px;color:rgb(163, 163, 163)}
+    
+    .end .contact p{padding:20px 0 0 25px;font-size:19px;color:rgb(163, 163, 163)}
+    
+    .end .contact span{font-weight:bold}
+}
+/********************************************************************************************************/
+/********************************************************************************************************/
+@media(max-width:512px){
+    .first{
+        width:100%;
+        height:80px; 
+        background:#7c9473;
+        display:flex;
+        position:fixed;
+        z-index:2
+    }
+    
+    .first .headline{
+        margin:0 0 0 7px;
+        align-items: center;
+        font-size:30px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        display:flex;
+        width:56%
+    }
+    
+    .first .headline .firstphoto{height:57px;width:65px}
+    
+    .first .headline .firstphoto img{
+        width:101px;
+        height:59px;
+        border-radius: 50%;
+        margin:0 0 0 6px;
+    }
+    
+    .first .more{width:0;margin-left:7px;height:80px;overflow: hidden;}
+    
+    .btn-group{overflow: visible;margin:25px 0 0 229px;height: 27px;}
+    .bottom{background-color: black;color: white;}
+    
+    .first .more ul{
+        list-style:none;
+        float:left;
+        height:50px;
+        padding-top:5px;
+        margin:0px 0 0 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first .more ul li{
+        margin:5px 27px 5px 27px;
+        font-size:24px;
+        color:white;
+        transition:all 0.2s ease-in-out;
+        width:84px;
+        height:30px;
+        display: flex;
+        overflow: hidden;
+        ;
+    }
+
+    
+    .first .more ul li a{text-decoration:none;color:white;transition:all 0.2s ease-in-out ;}
+    
+    .first .more ul li :hover{
+    font-size: 29px;
+    color: rgb(131, 89, 89);
+    transition:all 0.2s ease-in-out ;
+    }
+    
+    .first .more ul li a:active{color:yellowgreen}
+    
+    .middle{
+    width:100%;
+    height:900px;
+    padding:142px 0 95px 0;
+    background-color: #cfdac8;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    }
+    
+    .middle .birthday ,.middle .childrens {
+    width:500px;
+    height:450px;
+    display:flex;
+    background-color: rgb(106, 136, 118);
+    border-radius: 60px;
+    transition:all 0.6s ease-in-out ;
+    margin:0 0 10px 0
+    }
+    .middle .birthday img , .middle .childrens img{width:100%;height:100%;border-radius:60px ;}
+    
+    .middle .birthday .comment , .middle .childrens .comment{
+    position: absolute;
+    text-align:center;
+    width:125px;
+    background-color: rgb(56 50 47 / 61%);
+    border-radius: 80px;
+    margin:2.5px 0 0 120px ;
+    padding:5px;
+    font-size:20px;
+    color:rgb(46, 168, 162);
+    z-index:1;
+    display:flex
+    }
+    .middle .childrens .comment{width:142px}
+
+
+    .middle .childrens:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    .middle .birthday:hover{width:513px;transition:all 0.6s ease-in-out }
+    
+    
+    .end{width:100%;height:300px;background-color: #294546;text-align: center;display: flex;flex-wrap: wrap}
+    
+    .end .contact{ width:100%;height:100%;}
+    
+    .end .contact h2{padding:20px 0 0 25px;color:rgb(163, 163, 163)}
+    
+    .end .contact p{padding:20px 0 0 25px;font-size:19px;color:rgb(163, 163, 163)}
+    
+    .end .contact span{font-weight:bold}
+}
